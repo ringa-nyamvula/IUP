@@ -1,0 +1,70 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+# Ignore vendor directory
+/vendor
+
+# Ignore .env file containing sensitive configuration
+.env
+
+# Ignore config files that may contain sensitive data
+/config/*.php
+
+# Ignore database and cache files
+/storage/*.log
+/storage/*.meta
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/storage/app/public
+
+# Ignore generated asset files
+/public/css
+/public/js
+/public/mix-manifest.json
+/public/hot
+
+# Ignore node_modules directory
+/node_modules
+
+# Ignore composer-generated autoload files
+/bootstrap/cache
+/composer.lock
+/vendor/autoload.php
+
+# Ignore any generated application key
+/storage/*.key
+
+# Ignore environment-specific .env files
+/.env.*
+
+# Ignore PhpStorm meta data
+.idea
+
+# Ignore text editor-specific files
+.vscode
+
+# Ignore PHPUnit testing files
+/tests/TestCase.php
+/phpunit.xml
+
+# Ignore Homestead.yaml and Homestead.json, the configuration files for Laravel Homestead
+Homestead.yaml
+Homestead.json
